@@ -1,0 +1,253 @@
+#card1-detail{
+  background-color:white;
+}
+
+#card1,#header-card{
+  background-color:#F44336;
+}
+#card1-detail,#card2-detail,#card3-detail
+{
+  border-color: coral;
+}
+#header-card{
+  color:white;
+}
+.grid-body-modal{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1em;
+  justify-content: center;
+  grid-auto-rows: minmax(min-content, max-content);
+}
+.grid-icon-name .form-inline .form-group label{
+  display: inline-block;
+  vertical-align: text-top;
+ min-width:  70px;
+ justify-content: center;
+}
+.grid-one-column{
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  justify-items: center;
+}
+.grid-one-column input{
+  justify-self: center;
+}
+
+.upload-btn-wrapper {
+cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+
+.upload-btn-wrapper input[type=file] {
+  cursor: pointer;
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.UI {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.UI input[type=file] {
+  cursor: pointer;
+    width: 200px;
+    height: 200px;
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.UI.btn{
+  /* width: 500px; */
+}
+.UI input[type=text] {
+  cursor: pointer;
+  /* font-size: 100px; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+#upload-demo{
+width: 250px;
+height: 250px;
+padding-bottom:25px;
+margin-bottom:15px;
+}
+#upload-demo2{
+width: 250px;
+height: 250px;
+padding-bottom:25px;
+margin-bottom:15px;
+}
+#add-mount-year{
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 1rem;
+}
+.inner-MY{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 1rem;
+justify-content: center;
+grid-auto-rows: minmax(min-content, max-content);
+}
+.inner-MY p{
+justify-self: flex-end;
+margin-left: 20px;
+}
+#add-mount-year label{
+justify-self: flex-start;
+}
+
+label span{
+color: red;
+}
+.grid-icon-name{
+display: grid;
+grid-template-columns: 1fr 3fr;
+justify-content: center;
+grid-gap: 1rem;
+grid-auto-rows: minmax(min-content, max-content);
+}
+.grid-icon-name{
+justify-self: center;
+}
+.grid-icon-name input{
+justify-self: center;
+}
+.grid-icon-name .upload-btn-wrapper{
+justify-self: center;
+}
+.grid-form-condition{
+justify-self: center;
+}
+.grid-volume{
+justify-self: center;
+}
+#addCondition{
+display: grid;
+grid-template-columns: 3fr 1fr;
+grid-gap: 1rem;
+justify-content: center;
+grid-auto-rows: minmax(min-content, max-content);
+}
+.grid-fer-card{
+display: grid;
+grid-template: 
+  "name fer-con chart" 1fr
+  /1fr 1fr 1fr;
+grid-gap: 1rem;
+justify-content: center;
+}
+#addCondition .btn{
+justify-self: center;
+width: 75%;
+}
+.swal-footer{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+#addCondition input{
+justify-content: center;
+
+}
+.curser{
+cursor: pointer;
+color: white;
+transition: 0.3s ease-in-out;
+}
+.fer-column1,.fer-column2,.fer-column3{
+justify-self: center;
+align-self: center;
+}
+.fer-column1{
+grid-area: name;
+}
+.fer-column2{
+grid-area: fer-con;
+align-self: center;
+}
+.fer-column3{
+grid-area: chart;
+}
+/* @media only screen and (max-width: 1203px) { 
+.grid-body-modal{
+  grid-template-columns: 1fr;
+}
+.modal-dialog{
+  max-width: 1050px;
+}
+}
+*/
+.modal-lg2{
+max-width: 1200px;
+}
+@media only screen and (max-width: 1204px){
+.grid-body-modal{
+  grid-template-columns:1fr;
+}
+.modal-lg2{
+  max-width: 600px;
+}
+}
+.chart-fer{
+width: 500px;
+}
+@media only screen and (max-width: 1170px){
+.grid-fer-card{
+  grid-template: 
+  "name fer-con" 1fr
+  "chart chart" 1fr
+  /1fr 1fr;
+  justify-content: center;
+}
+.fer-column2{
+  align-self: center;
+}
+.chart-fer{
+  width: 500px;
+}
+}
+@media only screen and (max-width: 700px){
+.chart-fer{
+  max-width: 200px;
+}
+.fer-column2{
+grid-area: fer-con;
+}
+@media only screen and (max-width: 650px){
+.grid-fer-card{
+  grid-template: 
+  "name" 1fr
+  " fer-con" 1fr
+  "chart " 1fr
+  /1fr;
+  justify-content: center;
+}
+}
+
+
+/* .modal-dialog{
+  max-width: 1050px;
+}
+}
+.modal-dialog{
+max-width: 1050px;
+}  */
+.swal-button {
+    background-color: #7cd1f9;
+}

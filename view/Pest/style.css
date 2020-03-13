@@ -1,0 +1,30 @@
+.img-reletive {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.img-reletive input[type=file] {
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.grid-img-multiple {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+#upload-demo {
+    width: 250px;
+    height: 250px;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+}

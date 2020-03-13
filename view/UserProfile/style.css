@@ -1,0 +1,74 @@
+#card1-detail{
+    background-color:white;
+}
+
+#card1,#header-card{
+    background-color:#F44336;
+}
+#card1-detail,#card2-detail,#card3-detail
+{
+    border-color: coral;
+}
+#header-card{
+    color:white;
+}
+.grid-body-modal{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+}
+.modal-lg{
+    min-width: 1200px;
+}
+.grid-icon-name .form-inline .form-group label{
+    display: inline-block;
+    vertical-align: text-top;
+   min-width:  70px;
+}
+.grid-one-column{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    justify-items: center;
+}
+.grid-one-column input{
+    justify-self: center;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .UI {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  
+  .UI input[type=file] {
+      width: 200px;
+      height: 200px;
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  #upload-demo{
+	width: 250px;
+	height: 250px;
+  padding-bottom:25px;
+  margin-bottom:15px;
+}

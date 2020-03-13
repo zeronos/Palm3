@@ -1,0 +1,59 @@
+.main-canvas {
+    position: relative;
+}
+
+.half-img-tl {
+    position: absolute;
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    top: 0px;
+    left: 0px;
+}
+
+.half-img-tr {
+    position: absolute;
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    top: 0px;
+    right: 0px;
+}
+
+.half-img-bl {
+    position: absolute;
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    bottom: 0px;
+    left: 0px;
+}
+
+.half-img-br {
+    position: absolute;
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    bottom: 0px;
+    right: 0px;
+}
+
+.half-text-tl {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+}
+
+.half-text-tr {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+}
+
+.half-text-bl {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+}
+
+.half-text-br {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,47 @@
+#more_char {
+    display: none;
+}
+
+#more_danger {
+    display: none;
+}
+
+button {
+    background-color: white;
+    border: none;
+    outline: none;
+    color: dodgerblue;
+}
+
+.morecontent span {
+    display: none;
+}
+
+.morelink {
+    display: block;
+}
+
+.morecontent span {
+    display: none;
+}
+
+.morelink {
+    display: block;
+}
+.marge-img {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .marge-img input {
+    cursor: pointer;
+      width: 200px;
+      height: 200px;
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }

@@ -1,0 +1,216 @@
+.card-bg{
+    background-color: white;
+}
+
+.img-radius{
+    border-radius: 100%;
+    margin: auto;
+}
+
+.img-profile{
+    width: 200px;
+    height: 200px;
+}
+
+.img-slide{
+    width: 100%;
+    height: 80%;
+}
+
+.icon-big{
+    font-size: 44px;
+}
+
+.card-header-table{
+    color: #E91E63  ;
+}
+
+.card-color-one{
+    border-left-color: #E91E63 !important;
+    color: #E91E63 !important;
+}
+
+.card-color-two{
+    border-left-color: #00BCD4 !important;
+    color: #00BCD4 !important;
+}
+
+.card-color-three{
+    border-left-color: #8BC34A !important;
+    color: #8BC34A !important;
+}
+
+.card-color-four{
+    border-left-color: #FF9800  !important;
+    color: #FF9800 !important;
+}
+
+.eye-setting{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border: none;
+}
+
+.card-pest{
+    padding-top:10px;
+    /* font-size: smaller; */
+}
+#card-pest h6 
+{
+    color: #E91E63;
+}
+.table-responsive{
+    font-size:small;
+}
+/* .card-header{
+    color:white;
+    background-color:#F44336;
+} */
+
+.img-gal{
+    width: 100%;
+    height:150px;
+    z-index: 5;
+}
+
+.img-gal:hover{
+    opacity: 0.5;
+}
+
+.margin-gal{
+    margin:15px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px
+}
+  
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c4c4c4; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #bebebe; 
+}
+
+
+#barP::-webkit-scrollbar-thumb {
+    background: #fbedfb; 
+}
+    
+#barP::-webkit-scrollbar-thumb:hover {
+    background: #bebebe; 
+}
+
+.cow-icon-one{
+    content: url("../picture/cowiconOne.png");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.cow-icon-two{
+    content: url("../picture/cowiconTwo.png");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.cow-icon-three{
+    content: url("../picture/cowiconThree.png");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.cow-icon-four{
+    content: url("../picture/cowiconFour.png");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.badge-big{
+    padding: 8px;
+    width: 80%;
+    font-size: 100%;
+}
+
+.newHead{
+    background-color: #E91E63;
+    border-radius: unset !important;
+    color:white;
+}
+
+.link-path{
+    color: #858796;
+    text-decoration: none;
+}
+
+.link-path:hover{
+    text-decoration: none;
+}
+
+.link-active{
+    color:#E91E63;
+}
+
+.header-modal{
+    background-color: #E91E63;
+    color:white;
+}
+
+.table-head{
+    background-color: #E91E63;
+    color: white;
+}
+
+.table thead th , .table tfoot th
+{
+    text-align: center;
+}
+
+#td-right
+{
+    text-align: right;
+}
+
+#td-center
+{
+    text-align: center;
+}
+
+#td-left
+{
+    text-align: left;
+}
+
+#div1 {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #E5EAEC  ;
+    background-color : #E5EAEC  ;
+}
+#div2 {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #E5EAEC  ;
+    background-color : #E5EAEC  ;
+
+}
+
+
